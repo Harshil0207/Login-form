@@ -4,10 +4,10 @@ const salt = 10;
 
 
 var conn = mysql.createConnection({
-  host: "localhost",
-  user: "root",
-  password: "root",
-  database: "hr_database",
+  host: "b3uypy0phvu1006brinp-mysql.services.clever-cloud.com",
+  user: "unury0mqm562z94d",
+  password: "unury0mqm562z94d",
+  database: "b3uypy0phvu1006brinp",
 });
 
 conn.connect(function (err) {
