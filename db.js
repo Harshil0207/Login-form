@@ -4,10 +4,11 @@ const salt = 10;
 
 
 var conn = mysql.createConnection({
-  host: "b3uypy0phvu1006brinp-mysql.services.clever-cloud.com",
-  user: "unury0mqm562z94d",
-  password: "unury0mqm562z94d",
-  database: "b3uypy0phvu1006brinp",
+  host: "bmlohmbqiy92d7093h62-mysql.services.clever-cloud.com",
+  user: "u632zmuplolzvbiz",
+  port : 3306,
+  password: "cbYafQ5CIEe1LiO6XrPz",
+  database: "bmlohmbqiy92d7093h62",
 });
 
 conn.connect(function (err) {

@@ -13,6 +13,6 @@ app.get('/',(req,res)=>{
 
 require('./route.js')(app);
 
-app.listen(2000,()=>{
-    console.log("Server is running on 2000")
+app.listen(3002,()=>{
+    console.log("Server is running on 3306")
 })
